@@ -16,10 +16,7 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            SceneManager.LoadScene("main");
-        }
+
     }
 
     public void AddScore(int value)

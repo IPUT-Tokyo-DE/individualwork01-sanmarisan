@@ -19,7 +19,7 @@ public class TimeLimit : MonoBehaviour
         countdown -= Time.deltaTime;
         timeText.text = countdown.ToString("f1");
 
-        if (countdown == 0)
+        if (countdown <= 0)
         {
             timeText.text = "0";
             SceneManager.LoadScene("result");
